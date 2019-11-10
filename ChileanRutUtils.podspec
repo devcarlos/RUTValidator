@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ChileanRutUtils'
-  s.version          = '0.2.1'
+  s.version          = '0.4.0'
   s.summary          = 'ChileanRutUtils Library'
   s.swift_version    = '5.0'
 
