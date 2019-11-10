@@ -46,10 +46,11 @@ Carthage/Build
 
 
 # Pods
-Pods/
 Example/Build/
 Example/Index/
 Example/Pods/
+Example/Carthage/
+Example/Cartfile.resolved
 
 # Fastlane
 fastlane/report.xml
