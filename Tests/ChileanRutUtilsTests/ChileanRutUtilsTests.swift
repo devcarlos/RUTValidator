@@ -1,15 +1,20 @@
-//
-//  ChileanRutUtilsTests.swift
-//  ChileanRutUtilsTests
-//
-//  Created by Carlos Alcala on 11/9/19.
-//  Copyright © 2019 ChileUtils. All rights reserved.
-//
-
 import XCTest
 @testable import ChileanRutUtils
 
-class ChileanRutUtilsTests: XCTestCase {
+final class ChileanRutUtilsTests: XCTestCase {
+    static var allTests = [
+        ("testEmpty", testEmpty),
+        ("testInvalidOne", testInvalidOne),
+        ("testInvalidTwo", testInvalidTwo),
+        ("testInvalidThree", testInvalidThree),
+        ("testInvalidFour", testInvalidFour),
+        ("testInvalidFive", testInvalidFive),
+        ("testInvalidSix", testInvalidSix),
+        ("testInvalidFull", testInvalidFull),
+        ("testValidFormatInvalidRut", testValidFormatInvalidRut),
+        ("testInValidFormatWrongDotsPosition", testInValidFormatWrongDotsPosition),
+    ]
+    
     //MARK: - validateRUT invalid test
     func testEmpty() {
         let validator = RUTValidator.validateRUT("")

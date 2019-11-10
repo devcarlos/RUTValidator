@@ -5,6 +5,8 @@
 //  Created by Algunos Wones de Latam on 10/9/19.
 //
 
+import Foundation
+
 //swiftlint:disable missing_docs
 public protocol StringLocalizedProtocol: RawRepresentable {
     var localized: String { get }

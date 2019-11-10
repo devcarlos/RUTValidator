@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		D887D7A123779378002146C9 /* ChileanRutUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887D79723779377002146C9 /* ChileanRutUtils.framework */; };
 		D887D7A623779378002146C9 /* ChileanRutUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7A523779378002146C9 /* ChileanRutUtilsTests.swift */; };
-		D887D7B42377949D002146C9 /* StringLocalizedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7B12377949D002146C9 /* StringLocalizedProtocol.swift */; };
-		D887D7B52377949D002146C9 /* RUTValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7B22377949D002146C9 /* RUTValidator.swift */; };
-		D887D7B62377949D002146C9 /* Describable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7B32377949D002146C9 /* Describable.swift */; };
 		D8B24A762377B72D00660685 /* ChileanRutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D887D79A23779377002146C9 /* ChileanRutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8D865D12377C39E0004EEA5 /* Describable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D865CD2377C39E0004EEA5 /* Describable.swift */; };
+		D8D865D22377C39E0004EEA5 /* ChileanRutUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D865CE2377C39E0004EEA5 /* ChileanRutUtils.swift */; };
+		D8D865D32377C39E0004EEA5 /* StringLocalizedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D865CF2377C39E0004EEA5 /* StringLocalizedProtocol.swift */; };
+		D8D865D42377C39E0004EEA5 /* RUTValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D865D02377C39E0004EEA5 /* RUTValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +33,10 @@
 		D887D7A023779378002146C9 /* ChileanRutUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChileanRutUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D887D7A523779378002146C9 /* ChileanRutUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChileanRutUtilsTests.swift; sourceTree = "<group>"; };
 		D887D7A723779378002146C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D887D7B12377949D002146C9 /* StringLocalizedProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringLocalizedProtocol.swift; path = Source/StringLocalizedProtocol.swift; sourceTree = SOURCE_ROOT; };
-		D887D7B22377949D002146C9 /* RUTValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RUTValidator.swift; path = Source/RUTValidator.swift; sourceTree = SOURCE_ROOT; };
-		D887D7B32377949D002146C9 /* Describable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Describable.swift; path = Source/Describable.swift; sourceTree = SOURCE_ROOT; };
+		D8D865CD2377C39E0004EEA5 /* Describable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Describable.swift; sourceTree = "<group>"; };
+		D8D865CE2377C39E0004EEA5 /* ChileanRutUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChileanRutUtils.swift; sourceTree = "<group>"; };
+		D8D865CF2377C39E0004EEA5 /* StringLocalizedProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringLocalizedProtocol.swift; sourceTree = "<group>"; };
+		D8D865D02377C39E0004EEA5 /* RUTValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RUTValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,7 @@
 		D887D79923779377002146C9 /* ChileanRutUtils */ = {
 			isa = PBXGroup;
 			children = (
-				D887D7B7237794A5002146C9 /* Classes */,
+				D8D865CB2377C39E0004EEA5 /* Sources */,
 				D887D79A23779377002146C9 /* ChileanRutUtils.h */,
 				D887D79B23779377002146C9 /* Info.plist */,
 			);
@@ -93,14 +95,23 @@
 			path = ChileanRutUtilsTests;
 			sourceTree = "<group>";
 		};
-		D887D7B7237794A5002146C9 /* Classes */ = {
+		D8D865CB2377C39E0004EEA5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D887D7B32377949D002146C9 /* Describable.swift */,
-				D887D7B22377949D002146C9 /* RUTValidator.swift */,
-				D887D7B12377949D002146C9 /* StringLocalizedProtocol.swift */,
+				D8D865CC2377C39E0004EEA5 /* ChileanRutUtils */,
 			);
-			path = Classes;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		D8D865CC2377C39E0004EEA5 /* ChileanRutUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D8D865CE2377C39E0004EEA5 /* ChileanRutUtils.swift */,
+				D8D865CD2377C39E0004EEA5 /* Describable.swift */,
+				D8D865CF2377C39E0004EEA5 /* StringLocalizedProtocol.swift */,
+				D8D865D02377C39E0004EEA5 /* RUTValidator.swift */,
+			);
+			path = ChileanRutUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D887D7B62377949D002146C9 /* Describable.swift in Sources */,
-				D887D7B52377949D002146C9 /* RUTValidator.swift in Sources */,
-				D887D7B42377949D002146C9 /* StringLocalizedProtocol.swift in Sources */,
+				D8D865D22377C39E0004EEA5 /* ChileanRutUtils.swift in Sources */,
+				D8D865D32377C39E0004EEA5 /* StringLocalizedProtocol.swift in Sources */,
+				D8D865D42377C39E0004EEA5 /* RUTValidator.swift in Sources */,
+				D8D865D12377C39E0004EEA5 /* Describable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
