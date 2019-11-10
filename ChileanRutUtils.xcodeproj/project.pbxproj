@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D887D7A123779378002146C9 /* ChileanRutUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D887D79723779377002146C9 /* ChileanRutUtils.framework */; };
+		D887D7A623779378002146C9 /* ChileanRutUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7A523779378002146C9 /* ChileanRutUtilsTests.swift */; };
+		D887D7A823779378002146C9 /* ChileanRutUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D887D79A23779377002146C9 /* ChileanRutUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D887D7B42377949D002146C9 /* StringLocalizedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7B12377949D002146C9 /* StringLocalizedProtocol.swift */; };
+		D887D7B52377949D002146C9 /* RUTValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7B22377949D002146C9 /* RUTValidator.swift */; };
+		D887D7B62377949D002146C9 /* Describable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D887D7B32377949D002146C9 /* Describable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D887D7A223779378002146C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D887D78E23779377002146C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D887D79623779377002146C9;
+			remoteInfo = ChileanRutUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D887D79723779377002146C9 /* ChileanRutUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChileanRutUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887D79A23779377002146C9 /* ChileanRutUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChileanRutUtils.h; sourceTree = "<group>"; };
+		D887D79B23779377002146C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887D7A023779378002146C9 /* ChileanRutUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChileanRutUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D887D7A523779378002146C9 /* ChileanRutUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChileanRutUtilsTests.swift; sourceTree = "<group>"; };
+		D887D7A723779378002146C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D887D7B12377949D002146C9 /* StringLocalizedProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringLocalizedProtocol.swift; path = Source/StringLocalizedProtocol.swift; sourceTree = SOURCE_ROOT; };
+		D887D7B22377949D002146C9 /* RUTValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RUTValidator.swift; path = Source/RUTValidator.swift; sourceTree = SOURCE_ROOT; };
+		D887D7B32377949D002146C9 /* Describable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Describable.swift; path = Source/Describable.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D887D79423779377002146C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D79D23779378002146C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D7A123779378002146C9 /* ChileanRutUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D887D78D23779377002146C9 = {
+			isa = PBXGroup;
+			children = (
+				D887D79923779377002146C9 /* ChileanRutUtils */,
+				D887D7A423779378002146C9 /* ChileanRutUtilsTests */,
+				D887D79823779377002146C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D887D79823779377002146C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D887D79723779377002146C9 /* ChileanRutUtils.framework */,
+				D887D7A023779378002146C9 /* ChileanRutUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D887D79923779377002146C9 /* ChileanRutUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D887D7B7237794A5002146C9 /* Classes */,
+				D887D79A23779377002146C9 /* ChileanRutUtils.h */,
+				D887D79B23779377002146C9 /* Info.plist */,
+			);
+			path = ChileanRutUtils;
+			sourceTree = "<group>";
+		};
+		D887D7A423779378002146C9 /* ChileanRutUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D887D7A523779378002146C9 /* ChileanRutUtilsTests.swift */,
+				D887D7A723779378002146C9 /* Info.plist */,
+			);
+			path = ChileanRutUtilsTests;
+			sourceTree = "<group>";
+		};
+		D887D7B7237794A5002146C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D887D7B32377949D002146C9 /* Describable.swift */,
+				D887D7B22377949D002146C9 /* RUTValidator.swift */,
+				D887D7B12377949D002146C9 /* StringLocalizedProtocol.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D887D79223779377002146C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D7A823779378002146C9 /* ChileanRutUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D887D79623779377002146C9 /* ChileanRutUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887D7AB23779378002146C9 /* Build configuration list for PBXNativeTarget "ChileanRutUtils" */;
+			buildPhases = (
+				D887D79223779377002146C9 /* Headers */,
+				D887D79323779377002146C9 /* Sources */,
+				D887D79423779377002146C9 /* Frameworks */,
+				D887D79523779377002146C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChileanRutUtils;
+			productName = ChileanRutUtils;
+			productReference = D887D79723779377002146C9 /* ChileanRutUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D887D79F23779378002146C9 /* ChileanRutUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D887D7AE23779378002146C9 /* Build configuration list for PBXNativeTarget "ChileanRutUtilsTests" */;
+			buildPhases = (
+				D887D79C23779378002146C9 /* Sources */,
+				D887D79D23779378002146C9 /* Frameworks */,
+				D887D79E23779378002146C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D887D7A323779378002146C9 /* PBXTargetDependency */,
+			);
+			name = ChileanRutUtilsTests;
+			productName = ChileanRutUtilsTests;
+			productReference = D887D7A023779378002146C9 /* ChileanRutUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D887D78E23779377002146C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ChileUtils;
+				TargetAttributes = {
+					D887D79623779377002146C9 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+					D887D79F23779378002146C9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = D887D79123779377002146C9 /* Build configuration list for PBXProject "ChileanRutUtils" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D887D78D23779377002146C9;
+			productRefGroup = D887D79823779377002146C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D887D79623779377002146C9 /* ChileanRutUtils */,
+				D887D79F23779378002146C9 /* ChileanRutUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D887D79523779377002146C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D79E23779378002146C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D887D79323779377002146C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D7B62377949D002146C9 /* Describable.swift in Sources */,
+				D887D7B52377949D002146C9 /* RUTValidator.swift in Sources */,
+				D887D7B42377949D002146C9 /* StringLocalizedProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D887D79C23779378002146C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D887D7A623779378002146C9 /* ChileanRutUtilsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D887D7A323779378002146C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D887D79623779377002146C9 /* ChileanRutUtils */;
+			targetProxy = D887D7A223779378002146C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D887D7A923779378002146C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D887D7AA23779378002146C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D887D7AC23779378002146C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChileanRutUtils/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.latam.app.commons.ChileanRutUtils;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D887D7AD23779378002146C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChileanRutUtils/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.latam.app.commons.ChileanRutUtils;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D887D7AF23779378002146C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChileanRutUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.latam.app.commons.ChileanRutUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D887D7B023779378002146C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChileanRutUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.latam.app.commons.ChileanRutUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D887D79123779377002146C9 /* Build configuration list for PBXProject "ChileanRutUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D7A923779378002146C9 /* Debug */,
+				D887D7AA23779378002146C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D887D7AB23779378002146C9 /* Build configuration list for PBXNativeTarget "ChileanRutUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D7AC23779378002146C9 /* Debug */,
+				D887D7AD23779378002146C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D887D7AE23779378002146C9 /* Build configuration list for PBXNativeTarget "ChileanRutUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D887D7AF23779378002146C9 /* Debug */,
+				D887D7B023779378002146C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D887D78E23779377002146C9 /* Project object */;
+}

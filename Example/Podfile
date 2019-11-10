@@ -1,10 +1,10 @@
 platform :ios, '11.0'
 use_frameworks!
 
-target 'ChileanRutUtils_Example' do
+target 'Example' do
   pod 'ChileanRutUtils', :path => '../'
 
-  target 'ChileanRutUtils_Tests' do
+  target 'ExampleTests' do
     inherit! :search_paths
   end
 end

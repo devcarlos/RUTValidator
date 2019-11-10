@@ -1,0 +1,16 @@
+PODS:
+  - ChileanRutUtils (0.2.1)
+
+DEPENDENCIES:
+  - ChileanRutUtils (from `../`)
+
+EXTERNAL SOURCES:
+  ChileanRutUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChileanRutUtils: 73bf23f6265a5265b23bcebd56d6d3c68345a7cc
+
+PODFILE CHECKSUM: df8bc8b8db0efa751d7af1179e7f8c83e033d53d
+
+COCOAPODS: 1.8.3
