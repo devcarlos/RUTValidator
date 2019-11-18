@@ -1,18 +1,15 @@
 # RUTValidator
-> Short blurb about what your product does.
+> RUTValidator is a Library made in Swift to Validate and Format a Chilean RUT (Rol Unico Tributario)
 
-[![Swift Version][swift-image]][swift-url]
 [![Build Status][travis-image]][travis-url]
-[![License][license-image]][license-url]
+[![Swift 5.0](https://img.shields.io/badge/swift-5.0-red.svg?style=flat)](https://developer.apple.com/swift)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://opensource.org/licenses/MIT)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-RUTValidator a la swifty (Swit 5.1)
-Validador/Formateador de RUT (Rol único tributario)
-aka RUN (Rol único nacional)
-aka número de CI (cédula de identidad)
+RUTValidator is a Library made in Swift to Validate and Format a Chilean RUT (Rol Unico Tributario)
 
 ## Features
 
@@ -20,8 +17,9 @@ aka número de CI (cédula de identidad)
 
 ## Requirements
 
-- iOS 10+
+- iOS 11+
 - Xcode 11
+- Swift 5.0
 
 ## Installation
 
@@ -29,7 +27,7 @@ aka número de CI (cédula de identidad)
 You can use [CocoaPods](http://cocoapods.org/) to install `RUTValidator` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '10.0'
+platform :ios, '11.0'
 use_frameworks!
 pod 'RUTValidator'
 ```
@@ -62,6 +60,7 @@ We would love you for the contribution to **RUTValidator**, check the ``LICENSE`
 
 ## Author
 
+Magno Cardona aka Magno (azidfilez@gmail.com)
 Carlos Alcala aka Charles Xavier (Professori) (carlos.alcala@me.com)
 
 ## Meta
