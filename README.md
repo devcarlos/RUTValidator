@@ -1,7 +1,7 @@
 # RUTValidator
 > RUTValidator is a Library made in Swift to Validate and Format a Chilean RUT (Rol Unico Tributario)
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status](https://travis-ci.com/devcarlos/RUTValidator.svg?token=JeyiLqSQpjNRQyWZyBEg&branch=master)](https://travis-ci.com/devcarlos/RUTValidator)
 [![Swift 5.0](https://img.shields.io/badge/swift-5.0-red.svg?style=flat)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://opensource.org/licenses/MIT)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
