@@ -1,15 +1,15 @@
 //
-//  ChileanRutUtilsTests.swift
-//  ChileanRutUtilsTests
+//  RUTValidatorTests.swift
+//  RUTValidatorTests
 //
 //  Created by Carlos Alcala on 11/9/19.
-//  Copyright © 2019 ChileUtils. All rights reserved.
+//  Copyright © 2019 RUTValidator. All rights reserved.
 //
 
 import XCTest
-@testable import ChileanRutUtils
+@testable import RUTValidator
 
-class ChileanRutUtilsTests: XCTestCase {
+class RUTValidatorTests: XCTestCase {
     //MARK: - validateRUT invalid test
     func testEmpty() {
         let validator = RUTValidator.validateRUT("")

@@ -1,8 +1,8 @@
 //
 //  StringLocalizedProtocol.swift
-//  ChileanRutUtilsTest
+//  RUTValidatorTest
 //
-//  Created by Algunos Wones de Latam on 10/9/19.
+//  Created by RUTValidator on 10/9/19.
 //
 
 import Foundation

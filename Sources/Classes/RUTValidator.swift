@@ -1,9 +1,9 @@
 //
 //  RUTValidator.swift
-//  ChileanRutUtils
+//  RUTValidator
 //
-//  Created by Algunos Wones de Latam on 10/2/19.
-//  Copyright © 2019 Algunos Wones de Latam. All rights reserved.
+//  Created by RUTValidator on 10/2/19.
+//  Copyright © 2019 RUTValidator. All rights reserved.
 //
 
 import Foundation

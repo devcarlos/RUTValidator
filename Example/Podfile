@@ -2,7 +2,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target 'Example' do
-  pod 'ChileanRutUtils', :path => '../'
+  pod 'RUTValidator', :path => '../'
 
   target 'ExampleTests' do
     inherit! :search_paths

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D887D79623779377002146C9"
-               BuildableName = "ChileanRutUtils.framework"
-               BlueprintName = "ChileanRutUtils"
-               ReferencedContainer = "container:ChileanRutUtils.xcodeproj">
+               BuildableName = "RUTValidator.framework"
+               BlueprintName = "RUTValidator"
+               ReferencedContainer = "container:RUTValidator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D887D79F23779378002146C9"
-               BuildableName = "ChileanRutUtilsTests.xctest"
-               BlueprintName = "ChileanRutUtilsTests"
-               ReferencedContainer = "container:ChileanRutUtils.xcodeproj">
+               BuildableName = "RUTValidatorTests.xctest"
+               BlueprintName = "RUTValidatorTests"
+               ReferencedContainer = "container:RUTValidator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D887D79623779377002146C9"
-            BuildableName = "ChileanRutUtils.framework"
-            BlueprintName = "ChileanRutUtils"
-            ReferencedContainer = "container:ChileanRutUtils.xcodeproj">
+            BuildableName = "RUTValidator.framework"
+            BlueprintName = "RUTValidator"
+            ReferencedContainer = "container:RUTValidator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
