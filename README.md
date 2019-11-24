@@ -60,8 +60,8 @@ We would love you for the contribution to **RUTValidator**, check the ``LICENSE`
 
 ## Author
 
-Magno Cardona aka Magno (azidfilez@gmail.com)
-Carlos Alcala aka Charles Xavier (Professori) (carlos.alcala@me.com)
+* Magno Cardona aka Magno por la Chucha (acidfilez@gmail.com)
+* Carlos Alcala aka Charles Xavier (Profesori) (carlos.alcala@me.com)
 
 ## License
 
