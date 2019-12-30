@@ -5,9 +5,9 @@
 [![Swift 5.0](https://img.shields.io/badge/swift-5.0-red.svg?style=flat)](https://developer.apple.com/swift)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://opensource.org/licenses/MIT)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/EZSwiftExtensions.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
-[![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/RUTValidator.svg)](https://img.shields.io/cocoapods/v/LFAlertController.svg)  
+[![Platform](https://img.shields.io/cocoapods/p/RUTValidator.svg?style=flat)](http://cocoapods.org/pods/RUTValidator)
+[![PRs Welcome](https://img.shields.io/badge/RUTValidator.svg?style=flat-square)](http://makeapullrequest.com)
 
 RUTValidator is a Library made in Swift to Validate and Format a Chilean RUT (Rol Unico Tributario)
 
@@ -44,14 +44,53 @@ Create a `Cartfile` that lists the framework and run `carthage update`. Follow t
 github "devcarlos/RUTValidator"
 ```
 
-## Example
+## Code Examples
 
 ```swift
 import RUTValidator
 ```
 
 ```swift
-TODO: SOME CODE EXAMPLE HERE
+//Test Example validateRUT
+let unformattedRut = "19"
+let formattedRut = "1-9"
+let validator = RUTValidator.validateRUT(unformattedRut)
+
+XCTAssertTrue(validator.isValid)
+XCTAssertEqual(validator.formatted, formattedRut)
+```
+
+```swift
+//Test Example formatRut
+let realFormatedRut = RUTValidator.formatRut(unformattedRut)
+XCTAssertEqual(formattedRut, realFormatedRut)
+```
+
+```swift
+//Test Example getVerificationDigit
+let bodyRut = "9043943"
+let formattedRut = "9.043.943-k"
+let rawRut = "9043943k"
+let validator = RUTValidator.getVerificationDigit(rutBody: bodyRut)
+XCTAssertTrue(validator.isValid)
+XCTAssertEqual(validator.formatted, formattedRut)
+XCTAssertEqual(validator.rawRut, rawRut)
+```
+
+```swift
+//Test Example calculateVerificationDigit
+let bodyRut = "9043943"
+let dv = Int(10)
+let calculatedDV = RUTValidator.calculateVerificationDigit(rutBody: bodyRut)
+XCTAssertEqual(calculatedDV, dv)
+```
+
+```swift
+//Test Example cleanRUT
+let unformattedRut = "20.961.605-K"
+let expectedCleanRut = "20961605K"
+let cleanRut = RUTValidator.cleanRut(unformattedRut)
+XCTAssertEqual(cleanRut, expectedCleanRut)
 ```
 
 ## Contribute
