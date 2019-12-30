@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "ChileanRutUtils",
+    name: "RUTValidator",
     products: [
         .library(
-            name: "ChileanRutUtils",
-            targets: ["ChileanRutUtils"]),
+            name: "RUTValidator",
+            targets: ["RUTValidator"]),
     ],
     targets: [
         .target(
-            name: "ChileanRutUtils",
+            name: "RUTValidator",
             dependencies: []),
         .testTarget(
-            name: "ChileanRutUtilsTests",
-            dependencies: ["ChileanRutUtils"]),
+            name: "RUTValidatorTests",
+            dependencies: ["RUTValidator"]),
     ]
 )

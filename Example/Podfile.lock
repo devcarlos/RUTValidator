@@ -1,16 +1,16 @@
 PODS:
-  - ChileanRutUtils (0.2.1)
+  - RUTValidator (1.0.1)
 
 DEPENDENCIES:
-  - ChileanRutUtils (from `../`)
+  - RUTValidator (from `../`)
 
 EXTERNAL SOURCES:
-  ChileanRutUtils:
+  RUTValidator:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChileanRutUtils: 73bf23f6265a5265b23bcebd56d6d3c68345a7cc
+  RUTValidator: 1a085f47d7b80cee0c22819900403b81241e36d2
 
-PODFILE CHECKSUM: df8bc8b8db0efa751d7af1179e7f8c83e033d53d
+PODFILE CHECKSUM: a45f56c2adbb044e7b7418d371003d2238e36f00
 
 COCOAPODS: 1.8.3
